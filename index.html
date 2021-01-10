@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <title>Minha Revenda</title>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="warning row justify-content-center">
+            <p class="text-warning">ESTA É UMA LOJA DE EXEMPLO, NENHUM PEDIDO SERÁ ENTREGUE</p>
+        </div>
+        <div class="row justify-content-center">
+            <img src="./img/logo.png" alt="">
+        </div>
+    </header>
+    <main class="product container">
+        <div class="call row justify-content-center align-items-center">
+            <h3>Faça seu pedido rapidamente</h3>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="product-img">
+                <img src="./img/p13.png" alt="">
+            </div>
+            <div class="product-info align-items-center">
+                <h4 id="product">Botijão de Gás - 13 kg</h4>
+                <h5>Marca: <i id="mark">Seu Fornecedor</i></h5>
+                <h3 id="price">R$ 69.90</h3>
+                <small>Quantidade:</small>
+                <input type="number" id="amount" class="form-control" value="1"><br>
+                <button type="button" class="btn-init btn btn-primary btn-block" data-toggle="modal" data-target="#init-order"><i class="far fa-hand-point-right"></i> Pedido</button>
+            </div>
+        </div>
+    </main>
+    <footer class="containe-fluid">
+        <div class="row justify-content-center">
+            <p>Sua Revenda<br>Todos os Direitos Reservados</p>
+        </div>        
+    </footer>
+    <!-- MODAL PEDIDO -->
+    <div id="init-order" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="TituloModalLongoExemplo" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Preencha os Dados da Entrega</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                </div>
+                <div class="modal-body container">
+                    <div class="row">
+                        <div class="col-5 align-self-center">
+                            <h6>Seu Pedido:</h6>
+                        </div>
+                        <div class="col-7 align-self-center">
+                            <p id="amount-info"></p>
+                            <p id="total-info"></p>
+                        </div>
+                    </div>
+                    <form>
+                        <div class="form-group">                  
+                            <input class="form-control" id="name" type="text" placeholder="Seu nome" required>
+                            <input class="form-control" id="address" type="text" placeholder="Endereço para Entrega" required>
+                            <input class="form-control" id="landmark" type="text" placeholder="Ponto de referência" required>
+                            <select class="form-control" name="" id="payment-form" required>
+                                <option value="">-- Forma Pagto --</option>
+                                <option value="Dinheiro">Dinheiro</option>
+                                <option value="Cartão">Cartão</option>
+                            </select>
+                            <select class="form-control" name="" id="yes-or-no" required>
+                                <option value="">-- Precisa de troco ? --</option>
+                                <option value="Sim">Sim, preciso de troco</option>
+                                <option value="Não">Não preciso de troco</option>
+                            </select>
+                            <input type="number" id="change" class="form-control" placeholder="Troco para quanto ?" required>
+                        </div>                    
+                    </form>     
+                </div>
+                <div class="modal-footer">
+                    <div id="error">
+                        <p></p>
+                    </div>
+                    <button type="button" id="send-order" class="btn btn-success"><i class="fab fa-whatsapp"></i> Enviar Pedido</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL WHATSAPP-->
+    <div class="modal fade" id="askWhats" tabindex="-1" role="dialog" aria-labelledby="TituloModalCentralizado" aria-hidden="true" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="TituloModalCentralizado">Comece um teste agora, é rapidão !</h5>
+            </button>
+            </div>
+            <div class="modal-body">
+                <h6>Informe o Whatsapp para o qual deseja receber o pedido teste:</h6>
+                <input type="tel" class="form-control" maxlength="11" id="cel" placeholder="Só números e com DDD">
+            </div>
+            <div class="modal-footer">
+                <div id="errorCel">
+                    <p></p>
+                </div>
+            <button type="button" id="startButton" class="btn btn-primary"><i class="far fa-hand-point-right"></i> Começar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

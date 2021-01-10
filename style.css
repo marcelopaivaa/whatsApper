@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(182, 182, 182);
+}
+
+main .call{
+    padding: 0px 10px 0px 10px;
+}
+
+.thanks{
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+}
+
+.warning{
+    background-color: #ff0000;
+    padding: 8px;
+    text-align: center;
+}
+
+.text-warning{
+    color: #ffff00;
+    font-size: 13px;
+    font-weight: 900;
+    margin-bottom: 0px;
+}
+
+.call{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.tks{
+    margin: 20px 0px -20px 0px;
+}
+
+.back{
+    color: #0000d3;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.back:hover{
+    color: #3030fa;
+}
+
+.product{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    min-height: 65vh;
+}
+
+.product-img{  
+    margin-bottom: 20px;
+}
+
+.product-info{
+    margin-left: 20px;
+}
+
+#amount {
+    width: 70px;
+}
+
+#yes-or-no{
+    display: none;
+}
+#yes-or-no p{
+    margin-bottom: 0px;
+}
+
+#change{
+    display: none;
+}
+
+.btn-init{
+    margin-top: -20px;
+}
+
+.form-control{
+    margin-bottom: 8px;
+}
+
+footer{
+    background-color: #4b4b4b;
+    text-align: center;
+    padding: 15px 0px 5px 0px;
+}
+
+footer .row{
+    max-width: 100%;
+}
+
+footer p{
+    width: 80%;
+    color:#8a8a8a;
+}
+
+.modal-header h5{
+    line-height: 18px;
+}
+
+#amount-info{
+    margin-bottom: -5px;
+}
+
+#error, #errorCel{
+    width: 100%;
+    color: #ff0000;
+    text-align: left;
+}
