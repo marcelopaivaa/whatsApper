@@ -15,13 +15,19 @@ Simple, but functional.
 
 # Layout
 
+Add test number
+
 ![Screenshot](img/01.jpg)
+
+Validation
 
 ![Screenshot](img/02.jpg)
 
+Order details
+
 ![Screenshot](img/03.jpg)
 
-## Order view
+Order view on whatsapp
 
 ![Screenshot](img/04.jpg)
 
