@@ -6,7 +6,8 @@ Simple system to send order to whatsapp
 # About
 https://teste.whatsapper.com.br/
 
-Whatsapper is an simple application 100% responsive, build to practice the javascript in the front end.
+Whatsapper is an simple application 100% responsive, that i built to practice the javascript in the front end.
+
 The application request a whatsapp number to where will send the order with all the datas in only one organized massage.
 The application make all validations in all infomations fileds, do not allow the sending of supposedly wrong data
 
