@@ -20,6 +20,11 @@ Simple, but functional.
 
 ![Screenshot](img/03.jpg)
 
+## Order view
+
+![Screenshot](img/4.jpg)
+
+
 # Technologies
 
 - HTML5
