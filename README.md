@@ -23,6 +23,10 @@ Validation
 
 ![Screenshot](img/02.jpg)
 
+Product page
+
+![Screenshot](img/05.jpg)
+
 Order details
 
 ![Screenshot](img/03.jpg)
