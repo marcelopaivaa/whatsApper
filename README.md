@@ -41,6 +41,7 @@ Order view on whatsapp
 - HTML5
 - CSS3
 - Bootstrap
+- Font Awesome
 - Vanilla Javascript
 
 # Author
