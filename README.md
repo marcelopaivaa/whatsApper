@@ -3,7 +3,7 @@ Simple system to send order to whatsapp
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/marcelosurfdev/WhatsApper/blob/master/LICENSE)
 
-# About
+### About
 https://teste.whatsapper.com.br/
 
 Whatsapper is an simple application 100% responsive, that i built to practice the javascript in the front end.
@@ -13,7 +13,7 @@ The application make all validations in all infomations fileds, do not allow the
 
 Simple, but functional.
 
-# Technologies
+### Technologies
 
 - HTML5
 - CSS3
@@ -21,7 +21,7 @@ Simple, but functional.
 - Font Awesome
 - Vanilla Javascript
 
-# Layout and features
+### Layout and features
 
 Add test number
 
@@ -43,7 +43,7 @@ Order view on whatsapp
 
 ![Screenshot](img/04.jpg)
 
-# Author
+### Author
 
 - Marcelo Paiva
 
