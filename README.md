@@ -13,7 +13,7 @@ The application make all validations in all infomations fileds, do not allow the
 
 Simple, but functional.
 
-# Layout
+# Layout and features
 
 Add test number
 
