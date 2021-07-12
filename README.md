@@ -13,6 +13,14 @@ The application make all validations in all infomations fileds, do not allow the
 
 Simple, but functional.
 
+# Technologies
+
+- HTML5
+- CSS3
+- Bootstrap
+- Font Awesome
+- Vanilla Javascript
+
 # Layout and features
 
 Add test number
@@ -34,15 +42,6 @@ Order details
 Order view on whatsapp
 
 ![Screenshot](img/04.jpg)
-
-
-# Technologies
-
-- HTML5
-- CSS3
-- Bootstrap
-- Font Awesome
-- Vanilla Javascript
 
 # Author
 
