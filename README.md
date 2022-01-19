@@ -4,7 +4,6 @@ Simple system to send order to whatsapp
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/marcelosurfdev/WhatsApper/blob/master/LICENSE)
 
 ### About
-https://teste.whatsapper.com.br/
 
 Whatsapper is an simple application 100% responsive, that i built to practice the javascript in the front end.
 
